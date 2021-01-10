@@ -1,0 +1,156 @@
+{
+  "id": "b8290362-6db1-4e01-83b8-c7879bc74953",
+  "version": "2.0",
+  "name": "Criar Pet",
+  "url": "https://petstore.swagger.io",
+  "tests": [{
+    "id": "0b881614-215b-460b-b0fb-41be2ce37d22",
+    "name": "Criar Pet",
+    "commands": [{
+      "id": "561ea89f-6ef9-4d21-bc25-d44af4eea620",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1fca917-2b8e-484a-af4e-6ff058432ed8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "657x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "323a8c08-944a-4eae-815e-937d10d0bfe3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,148)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "278e7009-03c1-4539-941b-af5afbdc546b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0266d017-8102-4652-923d-1ce65975742f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "add1f8ee-98c3-4859-a9ff-5f149fbe05ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5c1efc6-f4c9-4cd4-8ce4-c1f516cc1e61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f00678-07c9-40ff-b840-17fe48ef3623",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f225e68-44d1-4d1c-8f65-1957e5b1b3f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c058e8b3-01de-4486-ab3f-242db97179a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"id\": 1,\\n  \"category\": {\\n    \"id\": 1,\\n    \"name\": \"Buldog\"\\n  },\\n  \"name\": \"Brutus\",\\n  \"photoUrls\": [\\n    \"string\"\\n  ],\\n  \"tags\": [\\n    {\\n      \"id\": 1,\\n      \"name\": \"string\"\\n    }\\n  ],\\n  \"status\": \"available\"\\n}"
+    }, {
+      "id": "515f995f-e699-4df8-ba97-b6977f1f6880",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c947071a-4cb6-4229-bdfb-abb98bcaf953",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27906d5-4795-490f-a1b7-74314d23658e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-addPet']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d712d7e8-eccd-4e36-8d67-c196d3f2a1c0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0b881614-215b-460b-b0fb-41be2ce37d22"]
+  }],
+  "urls": ["https://petstore.swagger.io/"],
+  "plugins": []
+}

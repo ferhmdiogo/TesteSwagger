@@ -1,0 +1,186 @@
+{
+  "id": "33348b39-e275-4f28-ad28-79a663d8ce4d",
+  "version": "2.0",
+  "name": "Mudar Status",
+  "url": "https://petstore.swagger.io",
+  "tests": [{
+    "id": "82c950b6-6724-419a-a73d-6e94a9692cb1",
+    "name": "Mudar Status",
+    "commands": [{
+      "id": "75e6dc89-b063-42ee-b6ef-bcab6a8e2e7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98792d0f-24b8-4cca-b346-9012bd633fa0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "657x706",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c720513f-776e-434b-b691-21bd870c2ad7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,158)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66f77e66-6a64-459e-942e-05a782c06371",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "522274d6-1756-4e92-8190-cbd7a2702f79",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3fae863-edd8-4667-bbcd-f1d2e45daed8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7756108-be29-40fc-832b-3dccd588cba9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) input",
+      "targets": [
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3be584-9356-462a-b24c-ff5b611d93ac",
+      "comment": "",
+      "command": "type",
+      "target": "css=tr:nth-child(1) input",
+      "targets": [
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@value='1']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "6eed21f5-3427-4efa-979f-32ef8efe9946",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) input",
+      "targets": [
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c623effd-7082-41ed-830f-45735b0f5df5",
+      "comment": "",
+      "command": "type",
+      "target": "css=tr:nth-child(2) input",
+      "targets": [
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@value='Brutus']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Brutus"
+    }, {
+      "id": "b50efedb-ecd1-4fa4-91c9-4dc44d7d4819",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) input",
+      "targets": [
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3d1ae6f-75bd-4fc0-87fd-18e4d59c1a44",
+      "comment": "",
+      "command": "type",
+      "target": "css=tr:nth-child(3) input",
+      "targets": [
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@value='delivered']", "xpath:attributes"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div/div[2]/div/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "delivered"
+    }, {
+      "id": "5e06911a-d7ac-4e4d-a414-b091813b3039",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a73649-15a4-4e73-8d07-5636426799ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f19a7d-d522-4f24-8c12-81435069f771",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-pet-updatePetWithForm']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eab8d55d-05e0-43e1-af31-32e9eeb1653b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82c950b6-6724-419a-a73d-6e94a9692cb1"]
+  }],
+  "urls": ["https://petstore.swagger.io/"],
+  "plugins": []
+}

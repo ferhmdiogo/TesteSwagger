@@ -1,0 +1,134 @@
+{
+  "id": "7eec46b4-c23f-4ebe-9525-06dcb8e250dd",
+  "version": "2.0",
+  "name": "Venda Brutus",
+  "url": "https://petstore.swagger.io",
+  "tests": [{
+    "id": "03798581-57bd-4867-a6d2-aa8d1f3eab41",
+    "name": "Venda Brutus",
+    "commands": [{
+      "id": "6b3b1e45-028b-45fc-a92e-00f70d52e247",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1973b1ca-52ed-4b21-be18-149f05561008",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "657x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c32c8d2e-aadb-4805-87d2-ab9f1a93df1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,154)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03d04cb2-8129-4462-acc4-a15120085f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e8d80d3-283d-42fe-9da6-698cf814eabb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "323a50c8-ece7-4e64-8cc7-d1c785fa8684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68fc979-4474-42cb-86c4-41b22601b1e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16719c52-f075-4b7f-843a-09eac3ec4d53",
+      "comment": "",
+      "command": "type",
+      "target": "css=.body-param__text",
+      "targets": [
+        ["css=.body-param__text", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div/div[2]/div/table/tbody/tr/td[2]/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "{\\n  \"id\": 1,\\n  \"petId\": 1,\\n  \"quantity\": 1,\\n  \"shipDate\": \"2021-01-10T21:45:58.121Z\",\\n  \"status\": \"placed\",\\n  \"complete\": true\\n}"
+    }, {
+      "id": "335200d2-7409-4205-abb6-1536fc190e79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9568d74d-060e-433d-81d8-6e123232e14c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ed87392-df61-4ed1-b000-9d6a7a5d1144",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-store-placeOrder']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a446f584-d72e-4593-aadf-ffc8de3ad8e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["03798581-57bd-4867-a6d2-aa8d1f3eab41"]
+  }],
+  "urls": ["https://petstore.swagger.io/"],
+  "plugins": []
+}

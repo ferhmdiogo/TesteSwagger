@@ -1,0 +1,90 @@
+{
+  "id": "a80ef853-c805-46c4-b15f-a1daa68f0bac",
+  "version": "2.0",
+  "name": "Consulta",
+  "url": "https://petstore.swagger.io",
+  "tests": [{
+    "id": "a41bcf31-2899-4a8a-9e73-935a5deb79d0",
+    "name": "Consulta",
+    "commands": [{
+      "id": "574ba9bd-122a-4a77-afdc-552bf29f233c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9e47228-79a9-4e2b-b73b-966c6d2757e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "657x707",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8f3ecdd-5829-4fb1-931f-f5be9451b9a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,103)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "061dc696-78b1-46d4-b007-9721bcd14e0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-store-getInventory']/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61f060d-dde3-4415-98c9-13a944261b5d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-store-getInventory']/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c2ec48c-8a20-49ef-9295-762f5a64a076",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.try-out__btn",
+      "targets": [
+        ["css=.try-out__btn", "css:finder"],
+        ["xpath=//div[@id='operations-store-getInventory']/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83e8e47f-327e-4705-ae61-52fe8d97f1fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-store-getInventory']/div[2]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3a25f164-4a26-4987-a8cb-91cc943d2454",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a41bcf31-2899-4a8a-9e73-935a5deb79d0"]
+  }],
+  "urls": ["https://petstore.swagger.io/"],
+  "plugins": []
+}
